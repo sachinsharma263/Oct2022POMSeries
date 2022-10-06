@@ -3,6 +3,7 @@ package com.qa.trcrm.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import com.qa.trcrm.pojo.Contacts;
 import com.qa.trcrm.utils.ElementUtil;
 import com.qa.trcrm.utils.JavaScriptUtil;
 
@@ -11,8 +12,8 @@ public class ContactsPage {
 	WebDriver driver;
 	ElementUtil util;
 	JavaScriptUtil jsUtil;
-	
-	By contactPageHeader=By.xpath("(//h2[text()])[1]");
+
+	By contactPageHeader = By.xpath("(//h2[text()])[1]");
 
 	By addPersonButton = By.xpath("//button[@class='hidden-xs hidden-sm btn btn-danger mr5 ng-scope ng-binding']");
 	By name = By.name("name");
@@ -26,6 +27,7 @@ public class ContactsPage {
 		util = new ElementUtil(driver);
 		jsUtil = new JavaScriptUtil(driver);
 	}
+
 	public String verifyContactPageHeader() {
 		util.waitForPresenceOfElementLocated(contactPageHeader);
 		return util.doGetText(contactPageHeader);
@@ -39,6 +41,19 @@ public class ContactsPage {
 		util.doSendKeys(emailId, email);
 		util.doClick(saveButton);
 
+		util.waitForPresenceOfElementLocated(personAddedMsg);
+
+		return util.doGetText(personAddedMsg);
+	}
+
+	public String addPerson(Contacts contacts) {
+		util.waitForPresenceOfElementLocated(addPersonButton);
+		util.doClick(addPersonButton);
+		util.waitForPresenceOfElementLocated(name);
+		util.doSendKeys(name, contacts.getFirstName());
+		util.doSendKeys(emailId, contacts.getEmailId());
+		util.doClick(saveButton);
+		
 		util.waitForPresenceOfElementLocated(personAddedMsg);
 
 		return util.doGetText(personAddedMsg);
