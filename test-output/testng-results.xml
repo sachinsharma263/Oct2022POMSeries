@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="1" total="10" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="trcrm app-Regression suite" duration-ms="286554" started-at="2022-10-05T15:08:07Z" finished-at="2022-10-05T15:12:54Z">
+    <groups>
+    </groups>
+    <test name="Login Page Test" duration-ms="63846" started-at="2022-10-05T15:08:07Z" finished-at="2022-10-05T15:09:11Z">
+      <class name="com.qa.trcrm.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.trcrm.tests.LoginPageTest@1d7acb34]" name="setUp" is-config="true" duration-ms="37283" started-at="2022-10-05T15:08:07Z" finished-at="2022-10-05T15:08:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.trcrm.tests.LoginPageTest@1d7acb34]" name="verifyLoginPageTitleTest" duration-ms="38" started-at="2022-10-05T15:08:45Z" finished-at="2022-10-05T15:08:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="FAIL" signature="verifySignUpLinkTest()[pri:2, instance:com.qa.trcrm.tests.LoginPageTest@1d7acb34]" name="verifySignUpLinkTest" duration-ms="265" started-at="2022-10-05T15:08:45Z" finished-at="2022-10-05T15:08:45Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.qa.trcrm.utils.ElementUtil.doIsDisplayed(ElementUtil.java:41)
+at com.qa.trcrm.pages.LoginPage.verifySignUpLink(LoginPage.java:35)
+at com.qa.trcrm.tests.LoginPageTest.verifySignUpLinkTest(LoginPageTest.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpLinkTest -->
+        <test-method status="PASS" signature="doLoginTest()[pri:3, instance:com.qa.trcrm.tests.LoginPageTest@1d7acb34]" name="doLoginTest" duration-ms="23907" started-at="2022-10-05T15:08:46Z" finished-at="2022-10-05T15:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.trcrm.tests.LoginPageTest@1d7acb34]" name="tearDown" is-config="true" duration-ms="1610" started-at="2022-10-05T15:09:10Z" finished-at="2022-10-05T15:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.trcrm.tests.LoginPageTest -->
+    </test> <!-- Login Page Test -->
+    <test name="Home Page Test" duration-ms="49526" started-at="2022-10-05T15:09:13Z" finished-at="2022-10-05T15:10:02Z">
+      <class name="com.qa.trcrm.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.trcrm.tests.HomePageTest@7181ae3f]" name="setUp" is-config="true" duration-ms="48130" started-at="2022-10-05T15:09:13Z" finished-at="2022-10-05T15:10:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageHeaderTest()[pri:0, instance:com.qa.trcrm.tests.HomePageTest@7181ae3f]" name="verifyHomePageHeaderTest" duration-ms="143" started-at="2022-10-05T15:10:01Z" finished-at="2022-10-05T15:10:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageHeaderTest -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:0, instance:com.qa.trcrm.tests.HomePageTest@7181ae3f]" name="verifyHomePageTitleTest" duration-ms="11" started-at="2022-10-05T15:10:01Z" finished-at="2022-10-05T15:10:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="verifyLoggedInUserTest()[pri:0, instance:com.qa.trcrm.tests.HomePageTest@7181ae3f]" name="verifyLoggedInUserTest" duration-ms="135" started-at="2022-10-05T15:10:01Z" finished-at="2022-10-05T15:10:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggedInUserTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.trcrm.tests.HomePageTest@7181ae3f]" name="tearDown" is-config="true" duration-ms="1098" started-at="2022-10-05T15:10:01Z" finished-at="2022-10-05T15:10:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.trcrm.tests.HomePageTest -->
+    </test> <!-- Home Page Test -->
+    <test name="Contact Page Test" duration-ms="171620" started-at="2022-10-05T15:10:02Z" finished-at="2022-10-05T15:12:54Z">
+      <class name="com.qa.trcrm.tests.ContactsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.trcrm.tests.ContactsPageTest@32cf48b7]" name="setUp" is-config="true" duration-ms="34187" started-at="2022-10-05T15:10:02Z" finished-at="2022-10-05T15:10:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyContactPageHeaderTest()[pri:1, instance:com.qa.trcrm.tests.ContactsPageTest@32cf48b7]" name="verifyContactPageHeaderTest" duration-ms="13819" started-at="2022-10-05T15:10:36Z" finished-at="2022-10-05T15:10:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactPageHeaderTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.trcrm.tests.ContactsPageTest@32cf48b7]" name="tearDown" is-config="true" duration-ms="1122" started-at="2022-10-05T15:10:50Z" finished-at="2022-10-05T15:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.trcrm.tests.ContactsPageTest@32cf48b7]" name="setUp" is-config="true" duration-ms="54342" started-at="2022-10-05T15:10:53Z" finished-at="2022-10-05T15:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyAddPersonTest(java.lang.String, java.lang.String)[pri:2, instance:com.qa.trcrm.tests.ContactsPageTest@32cf48b7]" name="verifyAddPersonTest" duration-ms="20523" started-at="2022-10-05T15:11:47Z" data-provider="getData" finished-at="2022-10-05T15:12:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhawna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bhawna@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for presence of element located by: By.xpath: //button[@class='hidden-xs hidden-sm btn btn-danger mr5 ng-scope ng-binding'] (tried for 20 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //button[@class='hidden-xs hidden-sm btn btn-danger mr5 ng-scope ng-binding'] (tried for 20 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.qa.trcrm.utils.ElementUtil.waitForPresenceOfElementLocated(ElementUtil.java:65)
+at com.qa.trcrm.pages.ContactsPage.addPerson(ContactsPage.java:35)
+at com.qa.trcrm.tests.ContactsPageTest.verifyAddPersonTest(ContactsPageTest.java:47)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='hidden-xs hidden-sm btn btn-danger mr5 ng-scope ng-binding']"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SACHIN-SHARMA', ip: '192.168.188.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7791801c746b37c632f2cb99b4167d8c
+*** Element info: {Using=xpath, value=//button[@class='hidden-xs hidden-sm btn btn-danger mr5 ng-scope ng-binding']}
+at sun.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddPersonTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.trcrm.tests.ContactsPageTest@32cf48b7]" name="tearDown" is-config="true" duration-ms="1067" started-at="2022-10-05T15:12:08Z" finished-at="2022-10-05T15:12:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.trcrm.tests.ContactsPageTest@32cf48b7]" name="setUp" is-config="true" duration-ms="26407" started-at="2022-10-05T15:12:09Z" finished-at="2022-10-05T15:12:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAddPersonTest(java.lang.String, java.lang.String)[pri:2, instance:com.qa.trcrm.tests.ContactsPageTest@32cf48b7]" name="verifyAddPersonTest" duration-ms="16683" started-at="2022-10-05T15:12:36Z" data-provider="getData" finished-at="2022-10-05T15:12:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Deepak]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[deepak@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddPersonTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.trcrm.tests.ContactsPageTest@32cf48b7]" name="tearDown" is-config="true" duration-ms="1490" started-at="2022-10-05T15:12:52Z" finished-at="2022-10-05T15:12:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.trcrm.tests.ContactsPageTest -->
+    </test> <!-- Contact Page Test -->
+  </suite> <!-- trcrm app-Regression suite -->
+</testng-results>

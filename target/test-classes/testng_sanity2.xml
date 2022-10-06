@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="trcrm app sanity suite">
+	<test  name="sanity test--chrome" verbose="2">
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.qa.trcrm.tests.LoginPageTest2" />
+		</classes>
+	</test>
+		<test  name="sanity test--firefox" verbose="2">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.qa.trcrm.tests.LoginPageTest2" />
+		</classes>
+	</test>
+</suite> 

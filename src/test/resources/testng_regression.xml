@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="trcrm app-Regression suite">
+	<listeners>
+		<!-- <listener class-name="com.qa.trcrm.listeners.pdfListener"></listener> -->
+		<listener
+			class-name="com.qa.trcrm.listeners.ExtentReportListener"></listener>
+	</listeners>
+
+	<test name="Login Page Test" verbose="2">
+		<classes>
+			<class name="com.qa.trcrm.tests.LoginPageTest" />
+
+		</classes>
+	</test>
+	<test name="Home Page Test" verbose="2">
+		<classes>
+			<class name="com.qa.trcrm.tests.HomePageTest" />
+
+		</classes>
+	</test>
+	<test name="Contact Page Test" verbose="2">
+		<classes>
+			<class name="com.qa.trcrm.tests.ContactsPageTest" />
+
+		</classes>
+	</test>
+
+</suite> 
+            
