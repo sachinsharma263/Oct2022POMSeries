@@ -12,7 +12,6 @@ import org.testng.annotations.Test;
 import com.qa.trcrm.base.BasePage;
 import com.qa.trcrm.pages.HomePage;
 import com.qa.trcrm.pages.LoginPage;
-import com.qa.trcrm.pojo.Credentials;
 import com.qa.trcrm.utils.AppConstants;
 
 public class LoginPageTest {
@@ -23,8 +22,6 @@ public class LoginPageTest {
 	WebDriver driver;
 	LoginPage loginPage;
 	HomePage homePage;
-	
-	Credentials credentials;
 
 	@BeforeTest
 	public void setUp() {
@@ -33,7 +30,6 @@ public class LoginPageTest {
 		driver = basePage.init_driver(prop);
 
 		loginPage = new LoginPage(driver);
-		credentials=new Credentials(prop.getProperty("username"), prop.getProperty("password"));
 	}
 
 	@Test(priority = 1,enabled = true)
@@ -49,7 +45,7 @@ public class LoginPageTest {
 
 	@Test(priority = 3,enabled = true)
 	public void doLoginTest() {
-		homePage = loginPage.doLogin(credentials);
+		homePage = loginPage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
 		Assert.assertEquals(homePage.getHomePageHeader(), AppConstants.HOME_PAGE_HEADER);
 	}
 	@DataProvider
