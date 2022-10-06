@@ -1,26 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [trcrm app sanity suite]">
-  <test thread-count="5" name="Login Page Test(failed)">
+  <listeners>
+    <listener class-name="com.qa.trcrm.listeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="sanity test(failed)">
     <classes>
       <class name="com.qa.trcrm.tests.LoginPageTest">
         <methods>
+          <include name="verifySignUpLinkTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="doLoginTest"/>
         </methods>
       </class> <!-- com.qa.trcrm.tests.LoginPageTest -->
     </classes>
-  </test> <!-- Login Page Test(failed) -->
-  <test thread-count="5" name="Home Page Test(failed)">
-    <classes>
-      <class name="com.qa.trcrm.tests.HomePageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="verifyHomePageHeaderTest"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.qa.trcrm.tests.HomePageTest -->
-    </classes>
-  </test> <!-- Home Page Test(failed) -->
+  </test> <!-- sanity test(failed) -->
 </suite> <!-- Failed suite [trcrm app sanity suite] -->

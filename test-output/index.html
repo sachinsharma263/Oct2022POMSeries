@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-trcrm_app-Regression_suite">
-                    <span>D:\eclipse-workspace\Oct2022POMSeries\src\test\resources\testng_regression.xml</span>
+                    <span>D:\eclipse-workspace\Oct2022POMSeries-NEW\src\test\resources\testng_regression.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -224,12 +224,14 @@
                   </a> <!-- verifyAddPersonTest(Bhawna, bhawna@gmail.com) -->
                   <span class="method-name">verifyAddPersonTest</span>
                   <span class="parameters">(Bhawna, bhawna@gmail.com)</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //button[@class=&apos;hidden-xs hidden-sm btn btn-danger mr5 ng-scope ng-binding&apos;] (tried for 20 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.qa.trcrm.utils.ElementUtil.waitForPresenceOfElementLocated(ElementUtil.java:65)
-	at com.qa.trcrm.pages.ContactsPage.addPerson(ContactsPage.java:35)
-	at com.qa.trcrm.tests.ContactsPageTest.verifyAddPersonTest(ContactsPageTest.java:47)
+                  <div class="stack-trace">java.lang.AssertionError: expected [Person added.] but found []
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.qa.trcrm.tests.ContactsPageTest.verifyAddPersonTest(ContactsPageTest.java:48)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -255,32 +257,6 @@
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@class=&apos;hidden-xs hidden-sm btn btn-danger mr5 ng-scope ng-binding&apos;]&quot;}
-  (Session info: chrome=105.0.5195.127)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;SACHIN-SHARMA&apos;, ip: &apos;192.168.188.210&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7791801c746b37c632f2cb99b4167d8c
-*** Element info: {Using=xpath, value=//button[@class=&apos;hidden-xs hidden-sm btn btn-danger mr5 ng-scope ng-binding&apos;]}
-	at sun.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 28 more
 
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -364,7 +340,7 @@ Session ID: 7791801c746b37c632f2cb99b4167d8c
         </div> <!-- panel trcrm_app-Regression_suite -->
         <div panel-name="test-xml-trcrm_app-Regression_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\eclipse-workspace\Oct2022POMSeries\src\test\resources\testng_regression.xml</span>
+            <span class="header-content">D:\eclipse-workspace\Oct2022POMSeries-NEW\src\test\resources\testng_regression.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -434,46 +410,46 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'doLoginTest')
-data.setCell(0, 2, 'com.qa.trcrm.tests.LoginPageTest')
-data.setCell(0, 3, 23907);
+data.setCell(0, 1, 'verifyAddPersonTest')
+data.setCell(0, 2, 'com.qa.trcrm.tests.ContactsPageTest')
+data.setCell(0, 3, 25776);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyAddPersonTest')
+data.setCell(1, 1, 'verifyContactPageHeaderTest')
 data.setCell(1, 2, 'com.qa.trcrm.tests.ContactsPageTest')
-data.setCell(1, 3, 20523);
+data.setCell(1, 3, 14034);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyAddPersonTest')
-data.setCell(2, 2, 'com.qa.trcrm.tests.ContactsPageTest')
-data.setCell(2, 3, 16683);
+data.setCell(2, 1, 'doLoginTest')
+data.setCell(2, 2, 'com.qa.trcrm.tests.LoginPageTest')
+data.setCell(2, 3, 10434);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyContactPageHeaderTest')
+data.setCell(3, 1, 'verifyAddPersonTest')
 data.setCell(3, 2, 'com.qa.trcrm.tests.ContactsPageTest')
-data.setCell(3, 3, 13819);
+data.setCell(3, 3, 8627);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifySignUpLinkTest')
-data.setCell(4, 2, 'com.qa.trcrm.tests.LoginPageTest')
-data.setCell(4, 3, 265);
+data.setCell(4, 1, 'verifyHomePageHeaderTest')
+data.setCell(4, 2, 'com.qa.trcrm.tests.HomePageTest')
+data.setCell(4, 3, 243);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyHomePageHeaderTest')
-data.setCell(5, 2, 'com.qa.trcrm.tests.HomePageTest')
-data.setCell(5, 3, 143);
+data.setCell(5, 1, 'verifySignUpLinkTest')
+data.setCell(5, 2, 'com.qa.trcrm.tests.LoginPageTest')
+data.setCell(5, 3, 230);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'verifyLoggedInUserTest')
 data.setCell(6, 2, 'com.qa.trcrm.tests.HomePageTest')
-data.setCell(6, 3, 135);
+data.setCell(6, 3, 134);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'verifyLoginPageTitleTest')
 data.setCell(7, 2, 'com.qa.trcrm.tests.LoginPageTest')
-data.setCell(7, 3, 38);
+data.setCell(7, 3, 54);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'verifyHomePageTitleTest')
 data.setCell(8, 2, 'com.qa.trcrm.tests.HomePageTest')
-data.setCell(8, 3, 11);
+data.setCell(8, 3, 8);
 window.suiteTableData['trcrm_app-Regression_suite']= { tableData: data, tableDiv: 'times-div-trcrm_app-Regression_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 59 seconds</span>
               <div id="times-div-trcrm_app-Regression_suite">
               </div> <!-- times-div-trcrm_app-Regression_suite -->
             </div> <!-- times-div -->
@@ -513,85 +489,85 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">verifyLoginPageTitleTest</span>
-                <span class="method-start">37317 ms</span>
+                <span class="method-start">30175 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifySignUpLinkTest</span>
-                <span class="method-start">37380 ms</span>
+                <span class="method-start">30260 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">doLoginTest</span>
-                <span class="method-start">38312 ms</span>
+                <span class="method-start">30788 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">62223 ms</span>
+                <span class="method-start">41227 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.trcrm.tests.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">65251 ms</span>
+                <span class="method-start">46790 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">verifyHomePageHeaderTest</span>
-                <span class="method-start">113383 ms</span>
+                <span class="method-start">89820 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyHomePageTitleTest</span>
-                <span class="method-start">113528 ms</span>
+                <span class="method-start">90071 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyLoggedInUserTest</span>
-                <span class="method-start">113541 ms</span>
+                <span class="method-start">90087 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">113678 ms</span>
+                <span class="method-start">90224 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.trcrm.tests.ContactsPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">114923 ms</span>
+                <span class="method-start">92849 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyContactPageHeaderTest</span>
-                <span class="method-start">149110 ms</span>
+                <span class="method-start">148809 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">162931 ms</span>
+                <span class="method-start">162850 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">165297 ms</span>
+                <span class="method-start">181831 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyAddPersonTest(Bhawna, bhawna@gmail.com)</span>
-                <span class="method-start">219639 ms</span>
+                <span class="method-start">283063 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">240881 ms</span>
+                <span class="method-start">309309 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">241949 ms</span>
+                <span class="method-start">312635 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyAddPersonTest(Deepak, deepak@gmail.com)</span>
-                <span class="method-start">268356 ms</span>
+                <span class="method-start">440455 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">285051 ms</span>
+                <span class="method-start">449093 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
