@@ -14,7 +14,13 @@ public class ProfilePage extends BasePage {
  public void remote() {
 		System.out.println("remote-changes");
 	}
+
 	 public void m2() {
 		System.out.println("m2");
+	 }
+
+ public void m1() {
+		System.out.println("m1");
+
 	}
 }
