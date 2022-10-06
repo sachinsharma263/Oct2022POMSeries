@@ -16,7 +16,7 @@ import com.qa.trcrm.pages.LoginPage;
 import com.qa.trcrm.utils.AppConstants;
 import com.qa.trcrm.utils.ExcelUtil;
 
-public class ContactsPageTest {
+public class ContactsPageTest2 {
 
 	BasePage basePage;
 	Properties prop;

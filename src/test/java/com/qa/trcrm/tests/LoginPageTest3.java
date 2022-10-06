@@ -14,7 +14,7 @@ import com.qa.trcrm.pages.HomePage;
 import com.qa.trcrm.pages.LoginPage;
 import com.qa.trcrm.utils.AppConstants;
 
-public class LoginPageTest {
+public class LoginPageTest3 {
 
 	BasePage basePage;
 	Properties prop;

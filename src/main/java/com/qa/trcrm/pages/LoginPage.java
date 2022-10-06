@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import com.qa.trcrm.base.BasePage;
+import com.qa.trcrm.pojo.Credentials;
 import com.qa.trcrm.utils.ElementUtil;
 import com.qa.trcrm.utils.JavaScriptUtil;
 
@@ -44,6 +45,16 @@ public class LoginPage extends BasePage {
 		util.doSendKeys(emailId, username);
 		driver.findElement(password).clear();
 		util.doSendKeys(password, pwd);
+		util.doClick(loginBtn);
+
+		return new HomePage(driver);
+	}
+	public HomePage doLogin(Credentials credentials) {
+
+		driver.findElement(emailId).clear();
+		util.doSendKeys(emailId, credentials.getEmailId());
+		driver.findElement(password).clear();
+		util.doSendKeys(password, credentials.getPassword());
 		util.doClick(loginBtn);
 
 		return new HomePage(driver);
