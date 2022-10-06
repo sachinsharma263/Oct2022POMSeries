@@ -20,6 +20,8 @@ public class LoginPage extends BasePage {
 	By signUpNowLink = By.linkText("Sign Up Now2");
 	By errorMsg=By.id("error");
 	By userLogin=By.xpath("//h3[text()='User Login']");
+	
+	By randon=By.id("random");
 
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
