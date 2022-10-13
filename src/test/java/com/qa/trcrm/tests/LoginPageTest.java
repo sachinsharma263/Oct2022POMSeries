@@ -14,6 +14,7 @@ import com.qa.trcrm.pages.HomePage;
 import com.qa.trcrm.pages.LoginPage;
 import com.qa.trcrm.pojo.Credentials;
 import com.qa.trcrm.utils.AppConstants;
+import com.qa.trcrm.utils.JiraPolicy;
 
 public class LoginPageTest {
 
@@ -36,12 +37,14 @@ public class LoginPageTest {
 		credentials=new Credentials(prop.getProperty("username"), prop.getProperty("password"));
 	}
 
+	@JiraPolicy(logTicketReady = true)
 	@Test(priority = 1,enabled = true)
 	public void verifyLoginPageTitleTest() {
 		String title = loginPage.getTitle();
 		Assert.assertEquals(title, AppConstants.LOGIN_PAGE_TITLE);
 	}
 
+	@JiraPolicy(logTicketReady = true)
 	@Test(priority = 2,enabled = true)
 	public void verifySignUpLinkTest() {
 		Assert.assertTrue(loginPage.verifySignUpLink());
