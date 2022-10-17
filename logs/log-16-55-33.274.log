@@ -1,0 +1,14 @@
+16:27:51.843 [main] INFO  com.qa.trcrm.tests.LoginPageTest - base page laucnhed
+16:27:51.902 [main] ERROR com.qa.trcrm.tests.LoginPageTest - prop init
+16:28:09.284 [main] DEBUG com.qa.trcrm.tests.LoginPageTest - driver laucnhed
+16:50:24.011 [main] INFO  com.qa.trcrm.tests.LoginPageTest - base page laucnhed
+16:50:24.022 [main] ERROR com.qa.trcrm.tests.LoginPageTest - prop init
+16:50:43.141 [main] DEBUG com.qa.trcrm.tests.LoginPageTest - driver laucnhed
+16:51:35.860 [main] INFO  com.qa.trcrm.tests.LoginPageTest - base page laucnhed
+16:51:35.875 [main] ERROR com.qa.trcrm.tests.LoginPageTest - prop init
+16:51:53.754 [main] DEBUG com.qa.trcrm.tests.LoginPageTest - driver laucnhed
+16:53:55.940 [main] INFO  com.qa.trcrm.tests.LoginPageTest - base page laucnhed
+16:53:55.951 [main] ERROR com.qa.trcrm.tests.LoginPageTest - prop init
+16:54:11.556 [main] DEBUG com.qa.trcrm.tests.LoginPageTest - driver laucnhed
+16:55:18.294 [main] INFO  com.qa.trcrm.tests.LoginPageTest - base page laucnhed
+16:55:18.306 [main] ERROR com.qa.trcrm.tests.LoginPageTest - prop init
