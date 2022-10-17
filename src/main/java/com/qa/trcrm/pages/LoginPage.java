@@ -2,6 +2,10 @@ package com.qa.trcrm.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.PageFactory;
 
 import com.qa.trcrm.base.BasePage;
 import com.qa.trcrm.pojo.Credentials;
@@ -23,11 +27,18 @@ public class LoginPage extends BasePage {
 	By userLogin=By.xpath("//h3[text()='User Login']");
 	
 	By randon=By.id("random");
+	
+	@FindBy(how=How.ID,using="_username")
+	WebElement emailId2;
+	
+	@FindBy(id="_username")
+	WebElement emailId3;
 
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
 		util = new ElementUtil(driver);
 		jsUtil=new JavaScriptUtil(driver);
+		//PageFactory.initElements(driver, this);
 	}
 
 	public String getTitle() {

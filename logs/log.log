@@ -1,0 +1,47 @@
+2022-10-17 23:06:25.184 [main] INFO  com.qa.trcrm.tests.LoginPageTest - title:CRM Login CRM | Customer Relationship Management TRCRM
+2022-10-17 23:06:25.303 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** ending test case *****************************************
+2022-10-17 23:06:25.303 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** verifyLoginPageTitleTest *****************************************
+2022-10-17 23:20:41.964 [main] INFO  com.qa.trcrm.tests.LoginPageTest - base page laucnhed
+2022-10-17 23:20:41.980 [main] ERROR com.qa.trcrm.tests.LoginPageTest - prop init
+2022-10-17 23:21:13.223 [main] DEBUG com.qa.trcrm.tests.LoginPageTest - driver laucnhed
+2022-10-17 23:21:13.531 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** starting test case *****************************************
+2022-10-17 23:21:13.534 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** verifyLoginPageTitleTest *****************************************
+2022-10-17 23:21:13.559 [main] INFO  com.qa.trcrm.tests.LoginPageTest - title:CRM Login CRM | Customer Relationship Management TRCRM
+2022-10-17 23:21:13.562 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** ending test case *****************************************
+2022-10-17 23:21:13.563 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** verifyLoginPageTitleTest *****************************************
+2022-10-17 23:21:13.573 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** starting test case *****************************************
+2022-10-17 23:21:13.574 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** verifySignUpLinkTest *****************************************
+2022-10-17 23:21:13.722 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** starting test case *****************************************
+2022-10-17 23:21:13.723 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** doLoginTest *****************************************
+2022-10-17 23:21:40.754 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** ending test case *****************************************
+2022-10-17 23:21:40.755 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** doLoginTest *****************************************
+2022-10-17 23:27:16.691 [main] INFO  com.qa.trcrm.tests.LoginPageTest - base page laucnhed
+2022-10-17 23:27:16.707 [main] ERROR com.qa.trcrm.tests.LoginPageTest - prop init
+2022-10-17 23:27:33.127 [main] DEBUG com.qa.trcrm.tests.LoginPageTest - driver laucnhed
+2022-10-17 23:27:33.524 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** starting test case *****************************************
+2022-10-17 23:27:33.549 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** verifyLoginPageTitleTest *****************************************
+2022-10-17 23:27:33.601 [main] INFO  com.qa.trcrm.tests.LoginPageTest - title:CRM Login CRM | Customer Relationship Management TRCRM
+2022-10-17 23:27:33.609 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** ending test case *****************************************
+2022-10-17 23:27:33.609 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** verifyLoginPageTitleTest *****************************************
+2022-10-17 23:27:33.620 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** starting test case *****************************************
+2022-10-17 23:27:33.622 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** verifySignUpLinkTest *****************************************
+2022-10-17 23:27:33.823 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** starting test case *****************************************
+2022-10-17 23:27:33.824 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** doLoginTest *****************************************
+2022-10-17 23:27:51.628 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** ending test case *****************************************
+2022-10-17 23:27:51.628 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** doLoginTest *****************************************
+2022-10-17 23:34:34.806 [main] INFO  com.qa.trcrm.tests.LoginPageTest - base page laucnhed
+2022-10-17 23:34:34.824 [main] ERROR com.qa.trcrm.tests.LoginPageTest - prop init
+2022-10-17 23:34:50.842 [main] DEBUG com.qa.trcrm.tests.LoginPageTest - driver laucnhed
+2022-10-17 23:34:51.057 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** starting test case *****************************************
+2022-10-17 23:34:51.057 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** verifyLoginPageTitleTest *****************************************
+2022-10-17 23:34:51.297 [main] INFO  com.qa.trcrm.tests.LoginPageTest - title:CRM Login CRM | Customer Relationship Management TRCRM
+2022-10-17 23:34:51.303 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** ending test case *****************************************
+2022-10-17 23:34:51.303 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** verifyLoginPageTitleTest *****************************************
+2022-10-17 23:34:51.314 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** starting test case *****************************************
+2022-10-17 23:34:51.315 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** verifySignUpLinkTest *****************************************
+2022-10-17 23:34:51.416 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** ending test case *****************************************
+2022-10-17 23:34:51.417 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** verifySignUpLinkTest *****************************************
+2022-10-17 23:34:51.421 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** starting test case *****************************************
+2022-10-17 23:34:51.422 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** doLoginTest *****************************************
+2022-10-17 23:35:21.432 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** ending test case *****************************************
+2022-10-17 23:35:21.433 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** doLoginTest *****************************************
