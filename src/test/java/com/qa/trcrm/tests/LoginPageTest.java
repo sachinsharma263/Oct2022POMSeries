@@ -62,7 +62,7 @@ public class LoginPageTest {
 	public void verifySignUpLinkTest() {
 		logger.info("****************************** starting test case *****************************************");
 		logger.info("****************************** verifySignUpLinkTest *****************************************");
-		try{Assert.assertTrue(loginPage.verifySignUpLink());}catch(Exception e) {}
+		Assert.assertTrue(loginPage.verifySignUpLink());
 		logger.info("****************************** ending test case *****************************************");
 		logger.info("****************************** verifySignUpLinkTest *****************************************");
 	}
