@@ -8,7 +8,6 @@ import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -16,8 +15,7 @@ import org.testng.ITestResult;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-import com.aventstack.extentreports.reporter.configuration.ChartLocation;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import com.qa.trcrm.base.BasePage;
 
@@ -41,11 +39,12 @@ public class ExtentReportListener extends BasePage implements ITestListener {
 				e.printStackTrace();
 			}
 		}
-		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(OUTPUT_FOLDER + FILE_NAME);
+		//ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(OUTPUT_FOLDER + FILE_NAME); deprecated in 4.1.7
+		ExtentSparkReporter htmlReporter=new ExtentSparkReporter(OUTPUT_FOLDER + FILE_NAME);
 		htmlReporter.config().setDocumentTitle("Automation Test Results");
 		htmlReporter.config().setReportName("Automation Test Results");
-		htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
-		htmlReporter.config().setTheme(Theme.STANDARD);
+		//htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP); deprecated in 4.1.7
+		htmlReporter.config().setTheme(Theme.DARK);
 
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
@@ -97,7 +96,7 @@ public class ExtentReportListener extends BasePage implements ITestListener {
 		try {
 			test.get().fail(result.getThrowable(),
 					MediaEntityBuilder.createScreenCaptureFromPath(getScreenshot()).build());
-		} catch (IOException e) {
+		} catch (Throwable e) {
 			System.err
 					.println("Exception thrown while updating test fail status " + Arrays.toString(e.getStackTrace()));
 		}
@@ -111,7 +110,7 @@ public class ExtentReportListener extends BasePage implements ITestListener {
 		try {
 			test.get().skip(result.getThrowable(),
 					MediaEntityBuilder.createScreenCaptureFromPath(getScreenshot()).build());
-		} catch (IOException e) {
+		} catch (Throwable e) {
 			System.err
 					.println("Exception thrown while updating test skip status " + Arrays.toString(e.getStackTrace()));
 		}
