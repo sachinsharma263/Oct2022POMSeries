@@ -11,6 +11,7 @@ import com.qa.trcrm.base.BasePage;
 import com.qa.trcrm.pojo.Credentials;
 import com.qa.trcrm.utils.ElementUtil;
 import com.qa.trcrm.utils.JavaScriptUtil;
+import com.qa.trcrm.utils.Log;
 
 public class LoginPage extends BasePage {
 
@@ -23,22 +24,22 @@ public class LoginPage extends BasePage {
 	By loginBtn = By.xpath("//input[@type='submit']");
 
 	By signUpNowLink = By.linkText("Sign Up Now2");
-	By errorMsg=By.id("error");
-	By userLogin=By.xpath("//h3[text()='User Login']");
-	
-	By randon=By.id("random");
-	
-	@FindBy(how=How.ID,using="_username")
+	By errorMsg = By.id("error");
+	By userLogin = By.xpath("//h3[text()='User Login']");
+
+	By randon = By.id("random");
+
+	@FindBy(how = How.ID, using = "_username")
 	WebElement emailId2;
-	
-	@FindBy(id="_username")
+
+	@FindBy(id = "_username")
 	WebElement emailId3;
 
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
 		util = new ElementUtil(driver);
-		jsUtil=new JavaScriptUtil(driver);
-		//PageFactory.initElements(driver, this);
+		jsUtil = new JavaScriptUtil(driver);
+		// PageFactory.initElements(driver, this);
 	}
 
 	public String getTitle() {
@@ -47,7 +48,7 @@ public class LoginPage extends BasePage {
 
 	public boolean verifySignUpLink() {
 		return util.doIsDisplayed(signUpNowLink);
-		
+
 	}
 
 	public HomePage doLogin(String username, String pwd) {
@@ -60,16 +61,23 @@ public class LoginPage extends BasePage {
 
 		return new HomePage(driver);
 	}
+
 	public HomePage doLogin(Credentials credentials) {
 
+		Log.info("clearing field email");
 		driver.findElement(emailId).clear();
+		Log.info("sending value to email");
 		util.doSendKeys(emailId, credentials.getEmailId());
+		Log.info("clearing field password");
 		driver.findElement(password).clear();
+		Log.info("sending value to password");
 		util.doSendKeys(password, credentials.getPassword());
+		Log.info("clicking on loginBtn");
 		util.doClick(loginBtn);
 
 		return new HomePage(driver);
 	}
+
 	public boolean errorMessage() {
 		return util.doIsDisplayed(userLogin);
 	}
