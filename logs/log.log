@@ -105,3 +105,355 @@
 2022-10-21 22:01:10.992 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** doLoginTest *****************************************
 2022-10-21 22:01:49.237 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** ending test case *****************************************
 2022-10-21 22:01:49.237 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** doLoginTest *****************************************
+2022-10-22 15:53:48.839 [main] INFO  com.qa.trcrm.tests.LoginPageTest - base page laucnhed
+2022-10-22 15:53:48.952 [main] ERROR com.qa.trcrm.tests.LoginPageTest - prop init
+2022-10-22 15:54:05.862 [main] DEBUG com.qa.trcrm.tests.LoginPageTest - driver laucnhed
+2022-10-22 15:54:06.099 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** starting test case *****************************************
+2022-10-22 15:54:06.100 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** verifyLoginPageTitleTest *****************************************
+2022-10-22 15:54:06.110 [main] INFO  com.qa.trcrm.tests.LoginPageTest - title:CRM Login CRM | Customer Relationship Management TRCRM
+2022-10-22 15:54:06.114 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** ending test case *****************************************
+2022-10-22 15:54:06.115 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** verifyLoginPageTitleTest *****************************************
+2022-10-22 15:54:06.137 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** starting test case *****************************************
+2022-10-22 15:54:06.137 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** verifySignUpLinkTest *****************************************
+2022-10-22 15:54:11.447 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** starting test case *****************************************
+2022-10-22 15:54:11.447 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** doLoginTest *****************************************
+2022-10-22 15:54:45.089 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** ending test case *****************************************
+2022-10-22 15:54:45.089 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** doLoginTest *****************************************
+2022-10-22 16:00:07.553 [main] INFO  com.qa.trcrm.tests.LoginPageTest - base page laucnhed
+2022-10-22 16:00:07.570 [main] ERROR com.qa.trcrm.tests.LoginPageTest - prop init
+2022-10-22 16:00:29.184 [main] DEBUG com.qa.trcrm.tests.LoginPageTest - driver laucnhed
+2022-10-22 16:00:29.492 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** starting test case *****************************************
+2022-10-22 16:00:29.493 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** verifyLoginPageTitleTest *****************************************
+2022-10-22 16:00:29.507 [main] INFO  com.qa.trcrm.tests.LoginPageTest - title:CRM Login CRM | Customer Relationship Management TRCRM
+2022-10-22 16:00:29.511 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** ending test case *****************************************
+2022-10-22 16:00:29.511 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** verifyLoginPageTitleTest *****************************************
+2022-10-22 16:00:29.529 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** starting test case *****************************************
+2022-10-22 16:00:29.529 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** verifySignUpLinkTest *****************************************
+2022-10-22 16:00:36.536 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** starting test case *****************************************
+2022-10-22 16:00:36.536 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** doLoginTest *****************************************
+2022-10-22 16:02:06.913 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** ending test case *****************************************
+2022-10-22 16:02:06.918 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** doLoginTest *****************************************
+2022-10-22 16:06:52.436 [main] INFO  com.qa.trcrm.tests.LoginPageTest - base page laucnhed
+2022-10-22 16:06:52.460 [main] ERROR com.qa.trcrm.tests.LoginPageTest - prop init
+2022-10-22 16:07:10.008 [main] DEBUG com.qa.trcrm.tests.LoginPageTest - driver laucnhed
+2022-10-22 16:07:10.403 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** starting test case *****************************************
+2022-10-22 16:07:10.404 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** verifyLoginPageTitleTest *****************************************
+2022-10-22 16:07:10.447 [main] INFO  com.qa.trcrm.tests.LoginPageTest - title:CRM Login CRM | Customer Relationship Management TRCRM
+2022-10-22 16:07:10.458 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** ending test case *****************************************
+2022-10-22 16:07:10.459 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** verifyLoginPageTitleTest *****************************************
+2022-10-22 16:07:10.521 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** starting test case *****************************************
+2022-10-22 16:07:10.521 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** verifySignUpLinkTest *****************************************
+2022-10-22 16:07:16.246 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** starting test case *****************************************
+2022-10-22 16:07:16.246 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** doLoginTest *****************************************
+2022-10-22 16:08:16.938 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** ending test case *****************************************
+2022-10-22 16:08:16.939 [main] INFO  com.qa.trcrm.tests.LoginPageTest - ****************************** doLoginTest *****************************************
+2022-10-23 20:24:50.940 [main] INFO  com.qa.trcrm.utils.Log - base page laucnhed
+2022-10-23 20:24:51.044 [main] ERROR com.qa.trcrm.utils.Log - prop init
+2022-10-23 20:25:24.557 [main] DEBUG com.qa.trcrm.utils.Log - driver laucnhed
+2022-10-23 20:50:37.358 [main] INFO  com.qa.trcrm.utils.Log - base page laucnhed
+2022-10-23 20:50:37.392 [main] ERROR com.qa.trcrm.utils.Log - prop init
+2022-10-23 20:50:51.191 [main] DEBUG com.qa.trcrm.utils.Log - driver laucnhed
+2022-10-23 20:50:51.543 [main] INFO  com.qa.trcrm.utils.Log - verifyLoginPageTitleTest started
+2022-10-23 20:50:51.544 [main] INFO  com.qa.trcrm.utils.Log - null
+2022-10-23 20:50:51.981 [main] INFO  com.qa.trcrm.utils.Log - verifyLoginPageTitleTest failed
+2022-10-23 20:50:56.116 [main] INFO  com.qa.trcrm.utils.Log - verifySignUpLinkTest started
+2022-10-23 20:50:56.116 [main] INFO  com.qa.trcrm.utils.Log - null
+2022-10-23 20:50:56.687 [main] INFO  com.qa.trcrm.utils.Log - verifySignUpLinkTest failed
+2022-10-23 20:50:58.581 [main] INFO  com.qa.trcrm.utils.Log - doLoginTest started
+2022-10-23 20:50:58.581 [main] INFO  com.qa.trcrm.utils.Log - null
+2022-10-23 20:50:59.070 [main] INFO  com.qa.trcrm.utils.Log - doLoginTest failed
+2022-10-23 20:54:21.674 [main] INFO  com.qa.trcrm.utils.Log - base page laucnhed
+2022-10-23 20:54:21.687 [main] ERROR com.qa.trcrm.utils.Log - prop init
+2022-10-23 20:54:37.202 [main] DEBUG com.qa.trcrm.utils.Log - driver laucnhed
+2022-10-23 20:54:37.405 [main] INFO  com.qa.trcrm.utils.Log - verifyLoginPageTitleTest started
+2022-10-23 20:54:37.406 [main] INFO  com.qa.trcrm.utils.Log - null
+2022-10-23 20:54:37.439 [main] INFO  com.qa.trcrm.utils.Log - verifyLoginPageTitleTest passed
+2022-10-23 20:54:37.446 [main] INFO  com.qa.trcrm.utils.Log - verifySignUpLinkTest started
+2022-10-23 20:54:37.446 [main] INFO  com.qa.trcrm.utils.Log - null
+2022-10-23 20:54:38.025 [main] INFO  com.qa.trcrm.utils.Log - verifySignUpLinkTest failed
+2022-10-23 20:54:42.241 [main] INFO  com.qa.trcrm.utils.Log - doLoginTest started
+2022-10-23 20:54:42.242 [main] INFO  com.qa.trcrm.utils.Log - null
+2022-10-23 20:55:00.903 [main] INFO  com.qa.trcrm.utils.Log - doLoginTest passed
+2022-10-23 21:01:08.942 [main] INFO  com.qa.trcrm.utils.Log - base page laucnhed
+2022-10-23 21:01:08.973 [main] ERROR com.qa.trcrm.utils.Log - prop init
+2022-10-23 21:01:21.052 [main] DEBUG com.qa.trcrm.utils.Log - driver laucnhed
+2022-10-23 21:01:21.269 [main] INFO  com.qa.trcrm.utils.Log - verifyLoginPageTitleTest started
+2022-10-23 21:01:21.270 [main] INFO  com.qa.trcrm.utils.Log - verify Login Page Title is correct or not
+2022-10-23 21:01:21.294 [main] INFO  com.qa.trcrm.utils.Log - verifyLoginPageTitleTest passed
+2022-10-23 21:01:21.300 [main] INFO  com.qa.trcrm.utils.Log - verifySignUpLinkTest started
+2022-10-23 21:01:21.300 [main] INFO  com.qa.trcrm.utils.Log - verify SignUp Link is correct or not
+2022-10-23 21:01:21.831 [main] INFO  com.qa.trcrm.utils.Log - verifySignUpLinkTest failed
+2022-10-23 21:01:26.254 [main] INFO  com.qa.trcrm.utils.Log - doLoginTest started
+2022-10-23 21:01:26.255 [main] INFO  com.qa.trcrm.utils.Log - verify login feature
+2022-10-23 21:01:56.442 [main] INFO  com.qa.trcrm.utils.Log - doLoginTest passed
+2022-10-23 21:16:15.202 [main] INFO  com.qa.trcrm.utils.Log - Test started!
+2022-10-23 21:16:15.221 [main] INFO  com.qa.trcrm.utils.Log - base page laucnhed
+2022-10-23 21:16:15.221 [main] ERROR com.qa.trcrm.utils.Log - prop init
+2022-10-23 21:16:35.896 [main] DEBUG com.qa.trcrm.utils.Log - driver laucnhed
+2022-10-23 21:16:36.126 [main] INFO  com.qa.trcrm.utils.Log - verifyLoginPageTitleTest starting
+2022-10-23 21:16:36.126 [main] INFO  com.qa.trcrm.utils.Log - verify Login Page Title is correct or not
+2022-10-23 21:16:36.154 [main] INFO  com.qa.trcrm.utils.Log - verifyLoginPageTitleTest passed!
+2022-10-23 21:16:36.162 [main] INFO  com.qa.trcrm.utils.Log - verifySignUpLinkTest starting
+2022-10-23 21:16:36.162 [main] INFO  com.qa.trcrm.utils.Log - verify SignUp Link is correct or not
+2022-10-23 21:16:36.630 [main] ERROR com.qa.trcrm.utils.Log - verifySignUpLinkTest failed!
+2022-10-23 21:16:41.017 [main] INFO  com.qa.trcrm.utils.Log - doLoginTest starting
+2022-10-23 21:16:41.017 [main] INFO  com.qa.trcrm.utils.Log - verify login feature
+2022-10-23 21:17:07.858 [main] INFO  com.qa.trcrm.utils.Log - doLoginTest passed!
+2022-10-23 21:17:10.180 [main] INFO  com.qa.trcrm.utils.Log - Test ended!
+2022-10-23 21:52:25.623 [main] INFO  com.qa.trcrm.utils.Log - Login Page Test Test started!
+2022-10-23 21:52:25.763 [main] INFO  com.qa.trcrm.utils.Log - base page laucnhed
+2022-10-23 21:52:25.769 [main] ERROR com.qa.trcrm.utils.Log - prop init
+2022-10-23 21:52:53.041 [main] DEBUG com.qa.trcrm.utils.Log - driver laucnhed
+2022-10-23 21:52:53.289 [main] INFO  com.qa.trcrm.utils.Log - starting test case: verifyLoginPageTitleTest starting
+2022-10-23 21:52:53.290 [main] INFO  com.qa.trcrm.utils.Log - verify Login Page Title is correct or not
+2022-10-23 21:52:53.328 [main] INFO  com.qa.trcrm.utils.Log - test case: verifyLoginPageTitleTest passed!
+2022-10-23 21:52:53.339 [main] INFO  com.qa.trcrm.utils.Log - starting test case: verifySignUpLinkTest starting
+2022-10-23 21:52:53.339 [main] INFO  com.qa.trcrm.utils.Log - verify SignUp Link is correct or not
+2022-10-23 21:52:53.769 [main] ERROR com.qa.trcrm.utils.Log - test case: verifySignUpLinkTest failed!
+2022-10-23 21:52:59.092 [main] INFO  com.qa.trcrm.utils.Log - starting test case: doLoginTest starting
+2022-10-23 21:52:59.093 [main] INFO  com.qa.trcrm.utils.Log - verify login feature
+2022-10-23 21:53:30.709 [main] INFO  com.qa.trcrm.utils.Log - test case: doLoginTest passed!
+2022-10-23 21:53:33.059 [main] INFO  com.qa.trcrm.utils.Log - Test ended!
+2022-10-23 22:01:08.443 [main] INFO  com.qa.trcrm.utils.Log - base page laucnhed
+2022-10-23 22:01:08.464 [main] ERROR com.qa.trcrm.utils.Log - prop init
+2022-10-23 22:01:23.930 [main] DEBUG com.qa.trcrm.utils.Log - driver laucnhed
+2022-10-23 22:01:24.060 [main] INFO  com.qa.trcrm.utils.Log - getting Login page title
+2022-10-23 22:01:24.069 [main] INFO  com.qa.trcrm.utils.Log - Login page title is: CRM Login CRM | Customer Relationship Management TRCRM
+2022-10-23 22:06:21.001 [main] INFO  com.qa.trcrm.utils.Log - base page laucnhed
+2022-10-23 22:06:21.006 [main] ERROR com.qa.trcrm.utils.Log - prop init
+2022-10-23 22:06:37.746 [main] DEBUG com.qa.trcrm.utils.Log - driver laucnhed
+2022-10-23 22:06:37.895 [main] INFO  com.qa.trcrm.utils.Log - getting Login page title
+2022-10-23 22:06:37.914 [main] INFO  com.qa.trcrm.utils.Log - Login page title is: CRM Login CRM | Customer Relationship Management TRCRM
+2022-10-23 22:10:52.881 [main] INFO  com.qa.trcrm.utils.Log - Login Page Test Test started!
+2022-10-23 22:10:52.917 [main] INFO  com.qa.trcrm.utils.Log - base page laucnhed
+2022-10-23 22:10:52.918 [main] ERROR com.qa.trcrm.utils.Log - prop init
+2022-10-23 22:11:03.288 [main] DEBUG com.qa.trcrm.utils.Log - driver laucnhed
+2022-10-23 22:11:03.497 [main] INFO  com.qa.trcrm.utils.Log - starting test case: verifyLoginPageTitleTest starting
+2022-10-23 22:11:03.497 [main] INFO  com.qa.trcrm.utils.Log - verify Login Page Title is correct or not
+2022-10-23 22:11:03.497 [main] INFO  com.qa.trcrm.utils.Log - getting Login page title
+2022-10-23 22:11:03.510 [main] INFO  com.qa.trcrm.utils.Log - Login page title is: CRM Login CRM | Customer Relationship Management TRCRM
+2022-10-23 22:11:03.532 [main] INFO  com.qa.trcrm.utils.Log - test case: verifyLoginPageTitleTest passed!
+2022-10-23 22:11:03.539 [main] INFO  com.qa.trcrm.utils.Log - starting test case: verifySignUpLinkTest starting
+2022-10-23 22:11:03.539 [main] INFO  com.qa.trcrm.utils.Log - verify SignUp Link is correct or not
+2022-10-23 22:11:04.001 [main] ERROR com.qa.trcrm.utils.Log - test case: verifySignUpLinkTest failed!
+2022-10-23 22:11:07.518 [main] INFO  com.qa.trcrm.utils.Log - starting test case: doLoginTest starting
+2022-10-23 22:11:07.518 [main] INFO  com.qa.trcrm.utils.Log - verify login feature
+2022-10-23 22:11:42.509 [main] INFO  com.qa.trcrm.utils.Log - test case: doLoginTest passed!
+2022-10-23 22:11:45.396 [main] INFO  com.qa.trcrm.utils.Log - Login Page Test Test ended!
+2022-10-23 22:19:34.282 [main] INFO  com.qa.trcrm.utils.Log - Login Page Test Test started!
+2022-10-23 22:19:34.299 [main] INFO  com.qa.trcrm.utils.Log - base page laucnhed
+2022-10-23 22:19:34.300 [main] ERROR com.qa.trcrm.utils.Log - prop init
+2022-10-23 22:19:48.258 [main] DEBUG com.qa.trcrm.utils.Log - driver laucnhed
+2022-10-23 22:19:48.519 [main] INFO  com.qa.trcrm.utils.Log - starting test case: verifyLoginPageTitleTest starting
+2022-10-23 22:19:48.519 [main] INFO  com.qa.trcrm.utils.Log - verify Login Page Title is correct or not
+2022-10-23 22:19:48.520 [main] INFO  com.qa.trcrm.utils.Log - getting Login page title
+2022-10-23 22:19:48.556 [main] INFO  com.qa.trcrm.utils.Log - Login page title is: CRM Login CRM | Customer Relationship Management TRCRM
+2022-10-23 22:19:48.592 [main] INFO  com.qa.trcrm.utils.Log - test case: verifyLoginPageTitleTest passed!
+2022-10-23 22:19:48.612 [main] INFO  com.qa.trcrm.utils.Log - starting test case: verifySignUpLinkTest starting
+2022-10-23 22:19:48.612 [main] INFO  com.qa.trcrm.utils.Log - verify SignUp Link is correct or not
+2022-10-23 22:19:49.300 [main] ERROR com.qa.trcrm.utils.Log - test case: verifySignUpLinkTest failed!
+2022-10-23 22:19:53.795 [main] INFO  com.qa.trcrm.utils.Log - starting test case: doLoginTest starting
+2022-10-23 22:19:53.795 [main] INFO  com.qa.trcrm.utils.Log - verify login feature
+2022-10-23 22:19:53.795 [main] INFO  com.qa.trcrm.utils.Log - clearing field sachinsharma263@gmail.com
+2022-10-23 22:19:54.001 [main] INFO  com.qa.trcrm.utils.Log - sending value to sachinsharma263@gmail.com
+2022-10-23 22:19:54.250 [main] INFO  com.qa.trcrm.utils.Log - clearing field swift2994
+2022-10-23 22:19:54.405 [main] INFO  com.qa.trcrm.utils.Log - sending value toswift2994
+2022-10-23 22:19:54.691 [main] INFO  com.qa.trcrm.utils.Log - clicking on By.xpath: //input[@type='submit']
+2022-10-23 22:20:20.858 [main] INFO  com.qa.trcrm.utils.Log - test case: doLoginTest passed!
+2022-10-23 22:20:23.958 [main] INFO  com.qa.trcrm.utils.Log - Login Page Test Test ended!
+2022-10-23 22:33:34.756 [main] INFO  com.qa.trcrm.utils.Log - Login Page Test Test started!
+2022-10-23 22:33:34.888 [main] INFO  com.qa.trcrm.utils.Log - base page laucnhed
+2022-10-23 22:33:34.889 [main] ERROR com.qa.trcrm.utils.Log - prop init
+2022-10-23 22:34:06.870 [main] DEBUG com.qa.trcrm.utils.Log - driver laucnhed
+2022-10-23 22:34:07.350 [main] INFO  com.qa.trcrm.utils.Log - starting test case: verifyLoginPageTitleTest starting
+2022-10-23 22:34:07.350 [main] INFO  com.qa.trcrm.utils.Log - verify Login Page Title is correct or not
+2022-10-23 22:34:07.350 [main] INFO  com.qa.trcrm.utils.Log - getting Login page title
+2022-10-23 22:34:07.360 [main] INFO  com.qa.trcrm.utils.Log - Login page title is: CRM Login CRM | Customer Relationship Management TRCRM
+2022-10-23 22:34:07.375 [main] INFO  com.qa.trcrm.utils.Log - test case: verifyLoginPageTitleTest passed!
+2022-10-23 22:34:07.382 [main] INFO  com.qa.trcrm.utils.Log - starting test case: verifySignUpLinkTest starting
+2022-10-23 22:34:07.382 [main] INFO  com.qa.trcrm.utils.Log - verify SignUp Link is correct or not
+2022-10-23 22:34:07.916 [main] ERROR com.qa.trcrm.utils.Log - test case: verifySignUpLinkTest failed!
+2022-10-23 22:34:17.890 [main] INFO  com.qa.trcrm.utils.Log - starting test case: doLoginTest starting
+2022-10-23 22:34:17.890 [main] INFO  com.qa.trcrm.utils.Log - verify login feature
+2022-10-23 22:34:17.891 [main] INFO  com.qa.trcrm.utils.Log - clearing field email
+2022-10-23 22:34:18.059 [main] INFO  com.qa.trcrm.utils.Log - sending value to email
+2022-10-23 22:34:18.254 [main] INFO  com.qa.trcrm.utils.Log - clearing field password
+2022-10-23 22:34:18.336 [main] INFO  com.qa.trcrm.utils.Log - sending value to password
+2022-10-23 22:34:18.505 [main] INFO  com.qa.trcrm.utils.Log - clicking on loginBtn
+2022-10-23 22:34:47.825 [main] INFO  com.qa.trcrm.utils.Log - test case: doLoginTest passed!
+2022-10-23 22:34:51.007 [main] INFO  com.qa.trcrm.utils.Log - Login Page Test Test ended!
+2022-10-23 23:13:56.394 [main] INFO  com.qa.trcrm.utils.Log - Login Page Test Test started!
+2022-10-23 23:13:56.529 [main] INFO  com.qa.trcrm.utils.Log - base page laucnhed
+2022-10-23 23:13:56.531 [main] ERROR com.qa.trcrm.utils.Log - prop init
+2022-10-23 23:15:22.306 [main] DEBUG com.qa.trcrm.utils.Log - driver laucnhed
+2022-10-23 23:15:22.957 [main] INFO  com.qa.trcrm.utils.Log - starting test case: verifyLoginPageTitleTest starting
+2022-10-23 23:15:22.957 [main] INFO  com.qa.trcrm.utils.Log - verify Login Page Title is correct or not
+2022-10-23 23:15:22.957 [main] INFO  com.qa.trcrm.utils.Log - getting Login page title
+2022-10-23 23:15:22.982 [main] INFO  com.qa.trcrm.utils.Log - Login page title is: CRM Login CRM | Customer Relationship Management TRCRM
+2022-10-23 23:15:23.022 [main] INFO  com.qa.trcrm.utils.Log - test case: verifyLoginPageTitleTest passed!
+2022-10-23 23:15:23.038 [main] INFO  com.qa.trcrm.utils.Log - starting test case: verifySignUpLinkTest starting
+2022-10-23 23:15:23.039 [main] INFO  com.qa.trcrm.utils.Log - verify SignUp Link is correct or not
+2022-10-23 23:15:23.210 [main] ERROR com.qa.trcrm.utils.Log - some exception occured while creating the element: By.linkText: Sign Up Now2
+2022-10-23 23:15:23.212 [main] ERROR com.qa.trcrm.utils.Log - no such element: Unable to locate element: {"method":"link text","selector":"Sign Up Now2"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SACHIN-SHARMA', ip: '192.168.43.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b77e18c69fbacad95964a49c3188bc69
+*** Element info: {Using=link text, value=Sign Up Now2}
+2022-10-23 23:15:23.664 [main] ERROR com.qa.trcrm.utils.Log - test case: verifySignUpLinkTest failed!
+2022-10-23 23:15:23.665 [main] INFO  com.qa.trcrm.utils.Log - Logging bug in jira
+2022-10-23 23:15:38.006 [main] INFO  com.qa.trcrm.utils.Log - new issue created in jira with ID: MCRPROJ-67
+2022-10-23 23:15:38.019 [main] INFO  com.qa.trcrm.utils.Log - starting test case: doLoginTest starting
+2022-10-23 23:15:38.019 [main] INFO  com.qa.trcrm.utils.Log - verify login feature
+2022-10-23 23:15:38.020 [main] INFO  com.qa.trcrm.utils.Log - clearing field email
+2022-10-23 23:15:38.314 [main] INFO  com.qa.trcrm.utils.Log - sending value to email
+2022-10-23 23:15:38.658 [main] INFO  com.qa.trcrm.utils.Log - clearing field password
+2022-10-23 23:15:38.888 [main] INFO  com.qa.trcrm.utils.Log - sending value to password
+2022-10-23 23:15:39.453 [main] INFO  com.qa.trcrm.utils.Log - clicking on loginBtn
+2022-10-23 23:16:15.498 [main] ERROR com.qa.trcrm.utils.Log - some exception occured while creating the element: By.xpath: //span[text()='Homepage']
+2022-10-23 23:16:15.500 [main] ERROR com.qa.trcrm.utils.Log - no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Homepage']"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SACHIN-SHARMA', ip: '192.168.43.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b77e18c69fbacad95964a49c3188bc69
+*** Element info: {Using=xpath, value=//span[text()='Homepage']}
+2022-10-23 23:16:15.891 [main] ERROR com.qa.trcrm.utils.Log - test case: doLoginTest failed!
+2022-10-23 23:16:18.475 [main] INFO  com.qa.trcrm.utils.Log - Login Page Test Test ended!
+2022-10-23 23:19:43.022 [main] INFO  com.qa.trcrm.utils.Log - Login Page Test Test started!
+2022-10-23 23:19:43.085 [main] INFO  com.qa.trcrm.utils.Log - base page laucnhed
+2022-10-23 23:19:43.088 [main] ERROR com.qa.trcrm.utils.Log - prop init
+2022-10-23 23:19:57.043 [main] DEBUG com.qa.trcrm.utils.Log - driver laucnhed
+2022-10-23 23:19:57.498 [main] INFO  com.qa.trcrm.utils.Log - starting test case: verifyLoginPageTitleTest starting
+2022-10-23 23:19:57.499 [main] INFO  com.qa.trcrm.utils.Log - verify Login Page Title is correct or not
+2022-10-23 23:19:57.500 [main] INFO  com.qa.trcrm.utils.Log - getting Login page title
+2022-10-23 23:19:57.539 [main] INFO  com.qa.trcrm.utils.Log - Login page title is: CRM Login CRM | Customer Relationship Management TRCRM
+2022-10-23 23:19:57.586 [main] INFO  com.qa.trcrm.utils.Log - test case: verifyLoginPageTitleTest passed!
+2022-10-23 23:19:57.598 [main] INFO  com.qa.trcrm.utils.Log - starting test case: verifySignUpLinkTest starting
+2022-10-23 23:19:57.599 [main] INFO  com.qa.trcrm.utils.Log - verify SignUp Link is correct or not
+2022-10-23 23:19:57.740 [main] ERROR com.qa.trcrm.utils.Log - some exception occured while creating the element: By.linkText: Sign Up Now2
+2022-10-23 23:19:57.741 [main] ERROR com.qa.trcrm.utils.Log - no such element: Unable to locate element: {"method":"link text","selector":"Sign Up Now2"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SACHIN-SHARMA', ip: '192.168.43.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61807}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a4578b00b7399a7a582164585ec3fbe8
+*** Element info: {Using=link text, value=Sign Up Now2}
+2022-10-23 23:19:58.695 [main] ERROR com.qa.trcrm.utils.Log - test case: verifySignUpLinkTest failed!
+2022-10-23 23:19:58.696 [main] INFO  com.qa.trcrm.utils.Log - Logging bug in jira
+2022-10-23 23:20:03.628 [main] INFO  com.qa.trcrm.utils.Log - new issue created in jira with ID: MCRPROJ-68
+2022-10-23 23:20:03.642 [main] INFO  com.qa.trcrm.utils.Log - starting test case: doLoginTest starting
+2022-10-23 23:20:03.642 [main] INFO  com.qa.trcrm.utils.Log - verify login feature
+2022-10-23 23:20:03.643 [main] INFO  com.qa.trcrm.utils.Log - clearing field email
+2022-10-23 23:20:03.823 [main] INFO  com.qa.trcrm.utils.Log - sending value to email
+2022-10-23 23:20:04.026 [main] INFO  com.qa.trcrm.utils.Log - clearing field password
+2022-10-23 23:20:04.118 [main] INFO  com.qa.trcrm.utils.Log - sending value to password
+2022-10-23 23:20:04.303 [main] INFO  com.qa.trcrm.utils.Log - clicking on loginBtn
+2022-10-23 23:20:13.782 [main] INFO  com.qa.trcrm.utils.Log - test case: doLoginTest passed!
+2022-10-23 23:20:16.169 [main] INFO  com.qa.trcrm.utils.Log - Login Page Test Test ended!
+2022-10-25 23:15:18.570 [main] INFO  com.qa.trcrm.utils.Log - Login Page Test Test started!
+2022-10-25 23:15:18.597 [main] INFO  com.qa.trcrm.utils.Log - base page laucnhed
+2022-10-25 23:15:18.624 [main] ERROR com.qa.trcrm.utils.Log - prop init
+2022-10-25 23:15:33.063 [main] DEBUG com.qa.trcrm.utils.Log - driver laucnhed
+2022-10-25 23:15:33.469 [main] INFO  com.qa.trcrm.utils.Log - starting test case: verifyLoginPageTitleTest starting
+2022-10-25 23:15:33.470 [main] INFO  com.qa.trcrm.utils.Log - verify Login Page Title is correct or not
+2022-10-25 23:15:33.471 [main] INFO  com.qa.trcrm.utils.Log - getting Login page title
+2022-10-25 23:15:33.490 [main] INFO  com.qa.trcrm.utils.Log - Login page title is: CRM Login CRM | Customer Relationship Management TRCRM
+2022-10-25 23:15:33.554 [main] INFO  com.qa.trcrm.utils.Log - test case: verifyLoginPageTitleTest passed!
+2022-10-25 23:15:33.573 [main] INFO  com.qa.trcrm.utils.Log - starting test case: verifySignUpLinkTest starting
+2022-10-25 23:15:33.574 [main] INFO  com.qa.trcrm.utils.Log - verify SignUp Link is correct or not
+2022-10-25 23:15:33.702 [main] ERROR com.qa.trcrm.utils.Log - some exception occured while creating the element: By.linkText: Sign Up Now2
+2022-10-25 23:15:33.703 [main] ERROR com.qa.trcrm.utils.Log - no such element: Unable to locate element: {"method":"link text","selector":"Sign Up Now2"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SACHIN-SHARMA', ip: '192.168.239.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50858}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 70f487dc214cb019aac051aab7f2864f
+*** Element info: {Using=link text, value=Sign Up Now2}
+2022-10-25 23:15:34.255 [main] ERROR com.qa.trcrm.utils.Log - test case: verifySignUpLinkTest failed!
+2022-10-25 23:15:34.255 [main] INFO  com.qa.trcrm.utils.Log - Logging bug in jira
+2022-10-25 23:15:39.757 [main] INFO  com.qa.trcrm.utils.Log - new issue created in jira with ID: MCRPROJ-69
+2022-10-25 23:15:39.767 [main] INFO  com.qa.trcrm.utils.Log - starting test case: doLoginTest starting
+2022-10-25 23:15:39.767 [main] INFO  com.qa.trcrm.utils.Log - verify login feature
+2022-10-25 23:15:39.768 [main] INFO  com.qa.trcrm.utils.Log - clearing field email
+2022-10-25 23:15:39.899 [main] INFO  com.qa.trcrm.utils.Log - sending value to email
+2022-10-25 23:15:40.154 [main] INFO  com.qa.trcrm.utils.Log - clearing field password
+2022-10-25 23:15:40.257 [main] INFO  com.qa.trcrm.utils.Log - sending value to password
+2022-10-25 23:15:40.418 [main] INFO  com.qa.trcrm.utils.Log - clicking on loginBtn
+2022-10-25 23:15:57.721 [main] INFO  com.qa.trcrm.utils.Log - test case: doLoginTest passed!
+2022-10-25 23:16:00.382 [main] INFO  com.qa.trcrm.utils.Log - Login Page Test Test ended!
+2022-10-26 14:52:53.372 [main] INFO  com.qa.trcrm.utils.Log - Login Page Test Test started!
+2022-10-26 14:52:53.405 [main] INFO  com.qa.trcrm.utils.Log - base page laucnhed
+2022-10-26 14:52:53.420 [main] ERROR com.qa.trcrm.utils.Log - prop init
+2022-10-26 14:53:06.877 [main] DEBUG com.qa.trcrm.utils.Log - driver laucnhed
+2022-10-26 14:53:07.210 [main] INFO  com.qa.trcrm.utils.Log - starting test case: verifyLoginPageTitleTest starting
+2022-10-26 14:53:07.210 [main] INFO  com.qa.trcrm.utils.Log - verify Login Page Title is correct or not
+2022-10-26 14:53:07.211 [main] INFO  com.qa.trcrm.utils.Log - getting Login page title
+2022-10-26 14:53:07.224 [main] INFO  com.qa.trcrm.utils.Log - Login page title is: CRM Login CRM | Customer Relationship Management TRCRM
+2022-10-26 14:53:07.239 [main] INFO  com.qa.trcrm.utils.Log - test case: verifyLoginPageTitleTest passed!
+2022-10-26 14:53:07.244 [main] INFO  com.qa.trcrm.utils.Log - starting test case: verifySignUpLinkTest starting
+2022-10-26 14:53:07.244 [main] INFO  com.qa.trcrm.utils.Log - verify SignUp Link is correct or not
+2022-10-26 14:53:07.326 [main] ERROR com.qa.trcrm.utils.Log - some exception occured while creating the element: By.linkText: Sign Up Now2
+2022-10-26 14:53:07.326 [main] ERROR com.qa.trcrm.utils.Log - no such element: Unable to locate element: {"method":"link text","selector":"Sign Up Now2"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SACHIN-SHARMA', ip: '192.168.68.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55204}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a6d9ec55fcdf638ca8839cb5bd365774
+*** Element info: {Using=link text, value=Sign Up Now2}
+2022-10-26 14:53:07.648 [main] ERROR com.qa.trcrm.utils.Log - test case: verifySignUpLinkTest failed!
+2022-10-26 14:53:07.648 [main] INFO  com.qa.trcrm.utils.Log - Logging bug in jira
+2022-10-26 14:53:13.323 [main] INFO  com.qa.trcrm.utils.Log - new issue created in jira with ID: MCRPROJ-70
+2022-10-26 14:53:13.325 [main] INFO  com.qa.trcrm.utils.Log - starting test case: doLoginTest starting
+2022-10-26 14:53:13.326 [main] INFO  com.qa.trcrm.utils.Log - verify login feature
+2022-10-26 14:53:13.326 [main] INFO  com.qa.trcrm.utils.Log - clearing field email
+2022-10-26 14:53:13.422 [main] INFO  com.qa.trcrm.utils.Log - sending value to email
+2022-10-26 14:53:13.582 [main] INFO  com.qa.trcrm.utils.Log - clearing field password
+2022-10-26 14:53:13.678 [main] INFO  com.qa.trcrm.utils.Log - sending value to password
+2022-10-26 14:53:13.847 [main] INFO  com.qa.trcrm.utils.Log - clicking on loginBtn
+2022-10-26 14:53:33.313 [main] INFO  com.qa.trcrm.utils.Log - test case: doLoginTest passed!
+2022-10-26 14:53:35.957 [main] INFO  com.qa.trcrm.utils.Log - Login Page Test Test ended!
+2022-10-26 15:34:38.282 [main] INFO  com.qa.trcrm.utils.Log - Login Page Test Test started!
+2022-10-26 15:34:38.331 [main] INFO  com.qa.trcrm.utils.Log - base page laucnhed
+2022-10-26 15:34:38.350 [main] ERROR com.qa.trcrm.utils.Log - prop init
+2022-10-26 15:34:56.472 [main] DEBUG com.qa.trcrm.utils.Log - driver laucnhed
+2022-10-26 15:34:56.882 [main] INFO  com.qa.trcrm.utils.Log - starting test case: verifyLoginPageTitleTest starting
+2022-10-26 15:34:56.882 [main] INFO  com.qa.trcrm.utils.Log - verify Login Page Title is correct or not
+2022-10-26 15:34:56.883 [main] INFO  com.qa.trcrm.utils.Log - getting Login page title
+2022-10-26 15:34:56.897 [main] INFO  com.qa.trcrm.utils.Log - Login page title is: CRM Login CRM | Customer Relationship Management TRCRM
+2022-10-26 15:34:56.918 [main] INFO  com.qa.trcrm.utils.Log - test case: verifyLoginPageTitleTest passed!
+2022-10-26 15:34:56.929 [main] INFO  com.qa.trcrm.utils.Log - starting test case: verifySignUpLinkTest starting
+2022-10-26 15:34:56.929 [main] INFO  com.qa.trcrm.utils.Log - verify SignUp Link is correct or not
+2022-10-26 15:34:57.108 [main] ERROR com.qa.trcrm.utils.Log - some exception occured while creating the element: By.linkText: Sign Up Now2
+2022-10-26 15:34:57.110 [main] ERROR com.qa.trcrm.utils.Log - no such element: Unable to locate element: {"method":"link text","selector":"Sign Up Now2"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SACHIN-SHARMA', ip: '192.168.68.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55349}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5d115db6a4636f2f89164a668d005ffe
+*** Element info: {Using=link text, value=Sign Up Now2}
+2022-10-26 15:34:58.187 [main] ERROR com.qa.trcrm.utils.Log - test case: verifySignUpLinkTest failed!
+2022-10-26 15:34:58.187 [main] INFO  com.qa.trcrm.utils.Log - Logging bug in jira
+2022-10-26 15:35:03.334 [main] INFO  com.qa.trcrm.utils.Log - new issue created in jira with ID: MCRPROJ-71
+2022-10-26 15:35:03.341 [main] INFO  com.qa.trcrm.utils.Log - starting test case: doLoginTest starting
+2022-10-26 15:35:03.341 [main] INFO  com.qa.trcrm.utils.Log - verify login feature
+2022-10-26 15:35:03.341 [main] INFO  com.qa.trcrm.utils.Log - clearing field email
+2022-10-26 15:35:03.567 [main] INFO  com.qa.trcrm.utils.Log - sending value to email
+2022-10-26 15:35:03.993 [main] INFO  com.qa.trcrm.utils.Log - clearing field password
+2022-10-26 15:35:04.111 [main] INFO  com.qa.trcrm.utils.Log - sending value to password
+2022-10-26 15:35:04.897 [main] INFO  com.qa.trcrm.utils.Log - clicking on loginBtn
+2022-10-26 15:35:27.534 [main] INFO  com.qa.trcrm.utils.Log - test case: doLoginTest passed!
+2022-10-26 15:35:30.542 [main] INFO  com.qa.trcrm.utils.Log - Login Page Test Test ended!
