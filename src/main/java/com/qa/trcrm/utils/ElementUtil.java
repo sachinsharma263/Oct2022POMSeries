@@ -25,6 +25,8 @@ public class ElementUtil {
 			return driver.findElement(locator);
 		} catch (Exception e) {
 			System.out.println("some exception occured while creating the element: " + locator);
+			Log.error("some exception occured while creating the element: " + locator);
+			Log.error(e.getMessage());
 		}
 		return element;
 	}

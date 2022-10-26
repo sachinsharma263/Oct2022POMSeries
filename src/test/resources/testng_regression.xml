@@ -7,6 +7,7 @@
 		<listener
 			class-name="com.qa.trcrm.listeners.ExtentReportListener"></listener>
 			<listener class-name="com.qa.trcrm.listeners.TestJiraListener"></listener>
+			<listener class-name="com.qa.trcrm.listeners.LogListener"></listener>
 	</listeners>
 
 	<test name="Login Page Test" verbose="2">

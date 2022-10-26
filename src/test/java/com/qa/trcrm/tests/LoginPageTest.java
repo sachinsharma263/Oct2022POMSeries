@@ -17,6 +17,7 @@ import com.qa.trcrm.pages.LoginPage;
 import com.qa.trcrm.pojo.Credentials;
 import com.qa.trcrm.utils.AppConstants;
 import com.qa.trcrm.utils.JiraPolicy;
+import com.qa.trcrm.utils.Log;
 
 public class LoginPageTest {
 
@@ -26,67 +27,64 @@ public class LoginPageTest {
 	WebDriver driver;
 	LoginPage loginPage;
 	HomePage homePage;
-	
+
 	Credentials credentials;
 	Logger logger;
 
 	@BeforeTest
 	public void setUp() {
-		logger=LogManager.getLogger(LoginPageTest.class.getName());//do we need to create instance of logger class in each test and page class
+		// logger=LogManager.getLogger(LoginPageTest.class.getName());//do we need to
+		// create instance of logger class in each test and page class
 		basePage = new BasePage();
-		logger.info("base page laucnhed");
+
+		Log.info("base page laucnhed");
 		prop = basePage.init_properties();
-		logger.error("prop init");
+
+		Log.error("prop init");
 		driver = basePage.init_driver(prop);
-		logger.debug("driver laucnhed");
+
+		Log.debug("driver laucnhed");
 
 		loginPage = new LoginPage(driver);
-		credentials=new Credentials(prop.getProperty("username"), prop.getProperty("password"));
+		credentials = new Credentials(prop.getProperty("username"), prop.getProperty("password"));
 	}
 
 	@JiraPolicy(logTicketReady = true)
-	@Test(priority = 1,enabled = true)
+	@Test(priority = 1, enabled = true, description = "verify Login Page Title is correct or not")
 	public void verifyLoginPageTitleTest() {
-		logger.info("****************************** starting test case *****************************************");
-		logger.info("****************************** verifyLoginPageTitleTest *****************************************");
+		Log.info("getting Login page title");
 		String title = loginPage.getTitle();
-		logger.info("title:"+title);
+		Log.info("Login page title is: " + title);
 		Assert.assertEquals(title, AppConstants.LOGIN_PAGE_TITLE);
-		logger.info("****************************** ending test case *****************************************");
-		logger.info("****************************** verifyLoginPageTitleTest *****************************************");
 
 	}
 
 	@JiraPolicy(logTicketReady = true)
-	@Test(priority = 2,enabled = true)
+	@Test(priority = 2, enabled = true, description = "verify SignUp Link is correct or not")
 	public void verifySignUpLinkTest() {
-		logger.info("****************************** starting test case *****************************************");
-		logger.info("****************************** verifySignUpLinkTest *****************************************");
+		
 		Assert.assertTrue(loginPage.verifySignUpLink());
-		logger.info("****************************** ending test case *****************************************");
-		logger.info("****************************** verifySignUpLinkTest *****************************************");
+		
 	}
 
-	@Test(priority = 3,enabled = true)
+	@Test(priority = 3, enabled = true, description = "verify login feature")
 	public void doLoginTest() {
-		logger.info("****************************** starting test case *****************************************");
-		logger.info("****************************** doLoginTest *****************************************");
+		
 		homePage = loginPage.doLogin(credentials);
 		Assert.assertEquals(homePage.getHomePageHeader(), AppConstants.HOME_PAGE_HEADER);
-		logger.info("****************************** ending test case *****************************************");
-		logger.info("****************************** doLoginTest *****************************************");
+	
 	}
+
 	@DataProvider
 	public Object[][] getLoginInvalidData() {
-		Object[][] data= {
-				{"test@gmail.com","test@123"},
-				{"test2@gmail.com","test@123"}
-				
+		Object[][] data = { { "test@gmail.com", "test@123" }, { "test2@gmail.com", "test@123" }
+
 		};
 		return data;
 	}
-	@Test(dataProvider = "getLoginInvalidData",enabled = false)
-	public void login_InvalidTestCases(String username,String password) {
+
+	@Test(dataProvider = "getLoginInvalidData", enabled = false)
+	public void login_InvalidTestCases(String username, String password) {
 		loginPage.doLogin(username, password);
 		Assert.assertTrue(loginPage.errorMessage());
 	}
