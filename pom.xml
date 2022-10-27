@@ -166,8 +166,7 @@
 						<systemPropertyVariables>
 							<userName>${DuserName}</userName>
 							<password>${Dpassword}</password>
-							<implicitWait>${DimplicitWait}</implicitWait>
-							<explicitWait>${DexplicitWait}</explicitWait>
+							<buildDirectory>${project.build.directory}</buildDirectory>
 						</systemPropertyVariables>
 
 						<!-- <suiteXmlFiles> <suiteXmlFile>src/main/resources/runners/maven_testng.xml</suiteXmlFile> 
