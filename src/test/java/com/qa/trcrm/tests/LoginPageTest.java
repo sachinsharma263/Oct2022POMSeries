@@ -47,6 +47,7 @@ public class LoginPageTest {
 
 		loginPage = new LoginPage(driver);
 		//credentials = new Credentials(prop.getProperty("username"), prop.getProperty("password"));
+		System.out.println("**************************"+System.getProperty("userName"));
 		credentials = new Credentials(System.getProperty("userName"), prop.getProperty("password"));
 	}
 
