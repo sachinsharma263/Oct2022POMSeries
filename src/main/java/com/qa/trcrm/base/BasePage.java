@@ -55,7 +55,7 @@ public class BasePage {
 		} else if (browserName.equalsIgnoreCase("edge")) {
 			WebDriverManager.edgedriver().setup();
 
-			driver = new EdgeDriver();
+			tlDriver.set(new EdgeDriver());
 		} else if (browserName.equalsIgnoreCase("safari")) {
 			WebDriverManager.getInstance(SafariDriver.class).setup();
 			driver = new SafariDriver();
