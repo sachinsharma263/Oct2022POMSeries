@@ -46,7 +46,8 @@ public class LoginPageTest {
 		Log.debug("driver laucnhed");
 
 		loginPage = new LoginPage(driver);
-		credentials = new Credentials(prop.getProperty("username"), prop.getProperty("password"));
+		//credentials = new Credentials(prop.getProperty("username"), prop.getProperty("password"));
+		credentials = new Credentials(System.getProperty("userName"), prop.getProperty("password"));
 	}
 
 	@JiraPolicy(logTicketReady = true)
