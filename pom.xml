@@ -164,7 +164,7 @@
 
 					<configuration>
 						<systemPropertyVariables>
-							<userName>${DuserName}</userName>
+							<userName>test</userName>
 							<password>${Dpassword}</password>
 							<buildDirectory>${project.build.directory}</buildDirectory>
 						</systemPropertyVariables>
