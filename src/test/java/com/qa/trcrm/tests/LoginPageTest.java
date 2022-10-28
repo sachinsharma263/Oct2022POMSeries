@@ -46,9 +46,14 @@ public class LoginPageTest {
 		Log.debug("driver laucnhed");
 
 		loginPage = new LoginPage(driver);
-		credentials = new Credentials(prop.getProperty("username"), prop.getProperty("password"));
-		
-		//credentials = new Credentials(System.getProperty("userName"), System.getProperty("password"));
+		if (System.getProperty("userName").isEmpty() && System.getProperty("password").isEmpty()) {
+			credentials = new Credentials(prop.getProperty("username"), prop.getProperty("password"));
+		} else {
+			credentials = new Credentials(System.getProperty("userName"), System.getProperty("password"));
+		}
+
+		// credentials = new Credentials(System.getProperty("userName"),
+		// System.getProperty("password"));
 	}
 
 	@JiraPolicy(logTicketReady = true)
@@ -64,17 +69,17 @@ public class LoginPageTest {
 	@JiraPolicy(logTicketReady = true)
 	@Test(priority = 2, enabled = true, description = "verify SignUp Link is correct or not")
 	public void verifySignUpLinkTest() {
-		
+
 		Assert.assertTrue(loginPage.verifySignUpLink());
-		
+
 	}
 
 	@Test(priority = 3, enabled = true, description = "verify login feature")
 	public void doLoginTest() {
-		
+
 		homePage = loginPage.doLogin(credentials);
 		Assert.assertEquals(homePage.getHomePageHeader(), AppConstants.HOME_PAGE_HEADER);
-	
+
 	}
 
 	@DataProvider
