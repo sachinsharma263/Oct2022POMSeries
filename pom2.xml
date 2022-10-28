@@ -164,8 +164,8 @@
 
 					<configuration>
 						<systemPropertyVariables>
-							<userName>${Demaill}</userName>
-							<password>${Dpass}</password>
+							<email>${Demail}</email>
+							<pass>${Dpass}</pass>
 
 						</systemPropertyVariables>
 
