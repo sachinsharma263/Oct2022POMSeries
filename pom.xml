@@ -165,8 +165,8 @@
 					<configuration>
 
 						<systemPropertyVariables>
-							<userName>${DuserName}</userName>
-							<password>${Dpassword}</password>
+							<email></email>
+							<pass></pass>
 
 						</systemPropertyVariables>
 						<suiteXmlFiles>

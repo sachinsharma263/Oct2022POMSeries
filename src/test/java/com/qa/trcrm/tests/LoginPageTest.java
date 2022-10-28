@@ -52,8 +52,6 @@ public class LoginPageTest {
 			credentials = new Credentials(System.getProperty("email"), System.getProperty("pass"));
 		}
 
-		// credentials = new Credentials(System.getProperty("userName"),
-		// System.getProperty("password"));
 	}
 
 	@JiraPolicy(logTicketReady = true)
